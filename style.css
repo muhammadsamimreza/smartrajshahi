@@ -1,0 +1,279 @@
+.web {
+  box-sizing: border-box;
+}
+.head {
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.allhead {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+  gap: 15px;
+}
+.logo img {
+  width: 65px;
+  height: 70px;
+}
+.ictlogo img {
+  width: 110px;
+  height: 60px;
+}
+.digital img {
+  width: 110px;
+  height: 60px;
+}
+.banner img {
+  width: 610px;
+  height: 80px;
+  margin-left: 10px;
+}
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: linear-gradient(to right, rgb(240, 124, 15) 10%, red);
+  height: 55px;
+  font-size: 15px;
+  color: white;
+}
+.leftnav{
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+  margin-left: -20px;
+}
+.leftnav li{
+  padding: 13px;
+}
+.leftnav .home{
+  background-color: rgb(243, 161, 54);  
+}
+.navright {
+  display: flex;
+  list-style-type: none;
+  gap: 40px;
+  
+}
+.navright a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  text-decoration: underline;
+}
+.left {
+  width: 100%;
+}
+.right {
+  margin-right: 20px;
+}
+#notice{
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+.nav2 {
+  width: 97%;
+  display: flex;
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+div .button {
+  width: 12%;
+  background-color: red;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div .notice {
+  width: 85%;
+  border: 1px solid #aaaaaa88;
+  font-size: 17px;
+  color: #686565;
+  display: flex;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 13px;
+  
+}
+.brandimage {
+  background-color: white;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.image img {
+  width: 96.33%;
+  height: 300px;
+}
+
+/* body content start */
+
+.body {
+  width: 100%;
+  display: flex;
+  background-color: white;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.division1 {
+  width: 70%;
+  background-color: white;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background-color: white;
+}
+.content1 {
+  min-width: 50%;
+
+  background-color: white;
+}
+
+.content2 {
+  min-width: 50%;
+
+  background-color: white;
+}
+li {
+  list-style-type: none;
+  line-height: 30px;
+}
+i {
+  color: rgb(247, 162, 92);
+  font-size: 10px;
+  margin-right: 10px;
+}
+
+.division2 {
+  width: 25%;
+  background-color: white;
+}
+.rightdiv {
+  background-color: white;
+  border-style: none;
+  width: 210px;
+  height: 180px;
+  margin: 10px auto;
+}
+.righthead {
+  text-align: center;
+}
+
+.formdiv {
+  width: 100%;
+  position: relative;
+  align-items: center;
+}
+.f1 {
+  position: absolute;
+  background-image: linear-gradient(
+    45deg,
+    rgba(251, 146, 3, 1) 0%,
+    rgba(240, 47, 23, 1) 56%,
+    rgba(240, 47, 23, 1) 100%
+  );
+  padding-top: 20px;
+  padding-bottom: 19px;
+  text-align: center;
+  border-radius: 10px;
+}
+.input {
+  margin-bottom: 10px;
+  width: 160px;
+  padding: 12px 6px;
+  padding-left: 10px;
+  border-radius: 5px;
+  border-style: none;
+}
+.buttonn {
+  padding: 8px 55px;
+  background-color: rgb(240, 157, 50);
+  border-style: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+}
+
+.video{
+  background-color: white;
+  width: 210px;
+  height: 118px;
+  margin: 10px auto;
+}
+
+.link1{
+  background-color: white;
+  width: 210px;
+  height: 165px;
+  margin: 35px auto;
+}
+.link img{
+  width: 210px;
+  height: 165px;
+}
+
+.link2{
+  background-color: white;
+  width: 210px;
+  height: 165px;
+  margin: 35px auto;
+}
+
+
+footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(to right, rgb(240, 124, 15) 10%, red);
+  height: 55px;
+  font-size: 13px;
+  color: white;
+ padding-left: 40px;
+ justify-content: space-between;
+
+}
+.foot{
+  margin-top: 50px;
+  
+  
+}
+.icon{
+  margin-right: 60px;
+
+}
+.icon-color{
+  color: white;
+  font-size: 13px;
+}
+
+.leftnav li:hover{
+  background-color: rgb(241, 136, 31);
+  cursor: pointer;  
+}
+
+

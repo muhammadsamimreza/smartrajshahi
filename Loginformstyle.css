@@ -1,0 +1,173 @@
+
+.main{
+    width: 500px;
+    height: 420px;
+    margin: 0 auto;
+    border: 1px solid red;
+    position: relative;
+    
+    
+}
+.formhead{
+    margin-top: -18px;
+}
+.main h3{
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(240, 124, 15) 10%, red);
+    padding: 15px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    
+   
+}
+.form{
+    background-color: bisque;
+    margin: 160px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 40px;
+    font-size: 17px;
+}
+.formdiv input{
+   width: 300px;
+   height: 35px;
+   border: 1px solid rgba(0, 0, 0, 0.199);
+   border-radius: 5px;
+}
+.formdiv{
+    position: absolute;
+    background-color: white;
+    padding: 15px;
+    color:rgba(0, 0, 0, 0.616);
+    
+ 
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.buttonn{
+    padding: 12px 50px;
+    border: 1px solid rgba(0, 0, 0, 0.199);
+    border-style: none;
+    border-radius: 5px;
+    background-color: rgb(238, 145, 59);
+    font-size: 15px;
+    font-weight: 550;
+    color: white;
+}
+.account{
+    margin-top: 20px;
+    font-size: 14px;
+}
+.login{
+    
+    font-weight: 600;
+}
+
+
+/* headin style start */
+.heading{
+    margin-bottom:50px;
+}
+.head {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .allhead {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    gap: 15px;
+  }
+  .logo img {
+    width: 65px;
+    height: 70px;
+  }
+  .ictlogo img {
+    width: 110px;
+    height: 60px;
+  }
+  .digital img {
+    width: 110px;
+    height: 60px;
+  }
+  .banner img {
+    width: 610px;
+    height: 80px;
+    margin-left: 10px;
+  }
+  .navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, rgb(240, 124, 15) 10%, red);
+    height: 55px;
+    font-size: 15px;
+    color: white;
+  }
+  .leftnav{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    margin-left: -20px;
+  }
+  .leftnav li{
+    padding: 13px;
+  }
+  .leftnav .home{
+    background-color: rgb(243, 161, 54);  
+  }
+  .navright {
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+  }
+  .left {
+    width: 100%;
+  }
+  .right {
+    margin-right: 20px;
+  }
+/* heading End */
+
+  /* footer start */
+  footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(240, 124, 15) 10%, red);
+    height: 55px;
+    font-size: 13px;
+    color: white;
+   padding-left: 40px;
+   justify-content: space-between;
+  
+  }
+  .foot{
+    margin-top: 50px;
+    
+    
+  }
+  .icon{
+    margin-right: 60px;
+  
+  }
+  .icon-color{
+    color: white;
+    font-size: 13px;
+  }
